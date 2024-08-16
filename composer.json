@@ -1,0 +1,21 @@
+{
+    "name": "vendor/coin-convertion",
+    "description": "Primeira versão de um conversor de moedas",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ThallesLana",
+            "email": "thalles.lana1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
